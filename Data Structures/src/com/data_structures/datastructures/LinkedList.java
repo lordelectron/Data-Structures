@@ -76,9 +76,7 @@ public class LinkedList {
 				System.exit(0);
 			}
 		}
-
 	}
-
 }
 
 class Node {

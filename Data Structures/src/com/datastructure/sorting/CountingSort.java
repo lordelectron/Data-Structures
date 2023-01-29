@@ -1,3 +1,5 @@
+package com.datastructure.sorting;
+
 import static java.lang.System.out;
 
 import java.io.BufferedReader;
@@ -63,7 +65,7 @@ public class CountingSort {
 			} catch (NumberFormatException | IOException e) {
 				e.printStackTrace();
 			}
-		out.println("=============================================");
+		System.out.println("=============================================");
 		out.println("array before sorting:");
 		ob.printArray(arr, size);
 		ob.countSort(arr, size);
